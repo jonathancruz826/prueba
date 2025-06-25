@@ -1,19 +1,12 @@
 [
   {
-    "nombre": "Juan",
-    "edad": 25,
-    "email": "juan@example.com"
+    "nombre": "Lucía",
+    "edad": 28,
+    "email": "lucia@example.com"
   },
-
   {
-    "nombre": "Fredy",
-    "edad": 25,
-    "email": "fredy@example.com"
-  },
-
-  {
-    "nombre": "Almendra",
-    "edad": 25,
-    "email": "almendra@example.com"
+    "nombre": "Carlos",
+    "edad": 35,
+    "email": "carlos@example.com"
   }
 ]
