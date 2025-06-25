@@ -3,5 +3,11 @@
     "nombre": "Juan",
     "edad": 25,
     "email": "juan@example.com"
+  },
+
+  {
+    "nombre": "Fredy",
+    "edad": 25,
+    "email": "fredy@example.com"
   }
 ]
