@@ -8,5 +8,10 @@
     "nombre": "María",
     "edad": 30,
     "email": "maria@example.com"
+  },
+  {
+    "nombre": "Fredy",
+    "edad": 26,
+    "email": "fredy@gmail.com"
   }
 ]
