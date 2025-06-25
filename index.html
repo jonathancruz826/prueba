@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Base de Datos</title>
+</head>
+<body>
+  <h1>Lista de Usuarios</h1>
+  <ul id="lista"></ul>
+
+  <script>
+    fetch('data.json')
+      .then(response => response.json())
+      .then(data => {
+        const lista = document.getElementById('lista');
+        data.forEach(usuario => {
+          const item = document.createElement('li');
+          item.textContent = `${usuario.nombre} (${usuario.edad} años) - ${usuario.email}`;
+          lista.appendChild(item);
+        });
+      });
+  </script>
+</body>
+</html>
